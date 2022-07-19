@@ -247,7 +247,7 @@ Media Query Divives
  ---------------- */
 @media only screen and (max-width: 688px) {
     .container {
-        width: 100%;
+        width: 80%;
         margin: auto;
     }
 
@@ -287,7 +287,7 @@ Media Query Divives
     }
 
     .banner .prebook-thumbnail img {
-        width: 420px;
+        width: 100%;
         margin-left: -10px;
     }
 
@@ -327,6 +327,12 @@ Media Query Divives
     /* Collections Section */
     .collections {
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: auto;
+    }
+    .collectoin{
+        margin: 10px;
+        justify-items: center;
     }
 
     .see-more {
@@ -345,12 +351,18 @@ Media Query Divives
         width: 100%;
         margin: auto;
     }
+    .featured-thumbnail img{
+        width: 70%;
+    }
 
     .join {
         margin-bottom: 50px;
     }
-
     /* Featured Produt Section End */
+    footer{
+        width: 100%;
+        margin: auto;
+    }
 }
 
 /* Tablet Devive   */
