@@ -1,0 +1,223 @@
+/* ---------------
+    Common style and Utilities 
+--------------*/
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: 1px solid #AAAAAA;
+}
+
+/*----------
+Nav Menu
+-----------*/
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.logo img{
+    width: 230px;
+    height: auto;
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}
+.see-more .fa-arrow-right{
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*-------------
+PreBook Banner Section
+----------------*/
+.banner {
+    display: flex;
+    margin-top: 15px;
+}
+
+.prebook {
+    width: 50%;
+    margin-top: 65px;
+}
+
+.prebook h1 {
+    color: #3A3A3A;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.bescription,
+.featured-info p {
+    font-size: 15px;
+    color: #3A3A3A;
+}
+
+.button-link {
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.prebook-thumbnail {
+    width: 50%;
+}
+
+.prebook-thumbnail img {
+    width: 100%;
+    margin-left: 68px;
+}
+
+/*------------
+Brand Company Section
+-------------*/
+.brands {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    padding: 25px;
+}
+
+.brands img {
+    width: 97.06px;
+    height: 28px;
+    cursor: pointer;
+}
+
+/**-----------------
+Popular Collection
+---------------*/
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.collectoin {
+    box-shadow: -5px 5px 24px lightgrey;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.collectoin img {
+    width: 100%;
+}
+
+.popular-title {
+    text-align: center;
+    color: #3A3A3A;
+    margin-top: 60px;
+}
+
+.collectoin h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.collectoin h4 {
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0;
+}
+
+.collectoin .fa-star,
+.fa-star-half-stroke {
+    font-size: 10px;
+    color: #F24822;
+}
+
+.collectoin span {
+    color: #5E6366;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.collectoin p {
+    color: #787885;
+    font-size: 14px;
+}
+
+.see-more {
+    display: flex;
+    justify-content: end;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*------------------
+Featured Product 
+-----------------*/
+.featured-product {
+    display: flex;
+}
+
+.featured-info {
+    margin-left: 90px;
+}
+
+.featured-info h1 {
+    font-size: 35px;
+    color: #3A3A3A;
+}
+.join{
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+/**----------------
+Footer Section
+---------------*/
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    margin-bottom: -15px;
+    padding: 46px 0 60px 0;
+}
+footer h2{
+    color: white;
+    margin: 0;
+    font-size: 25px;
+    font-weight: normal;
+}
+footer p{
+    color: #D9DBE1;
+    font-size: 11px;
+    margin-top: 0;
+}
+footer .fa-brands{
+    color: white;
+    margin-right: 20px;
+}
