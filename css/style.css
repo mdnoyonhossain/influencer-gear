@@ -16,6 +16,11 @@ hr {
     border: 1px solid #AAAAAA;
 }
 
+/* Mobile Menu Responsive */
+.mobile-menu {
+    display: none;
+}
+
 /*----------
 Nav Menu
 -----------*/
@@ -25,14 +30,17 @@ Nav Menu
     align-items: center;
     margin-top: 15px;
 }
-.logo img{
+
+.logo img {
     width: 230px;
     height: auto;
 }
-.fa-arrow-right{
+
+.fa-arrow-right {
     margin-left: 5px;
 }
-.see-more .fa-arrow-right{
+
+.see-more .fa-arrow-right {
     margin-left: 5px;
     margin-top: 4px;
 }
@@ -187,40 +195,162 @@ Featured Product
     font-size: 35px;
     color: #3A3A3A;
 }
-.join{
+
+.join {
     background-color: #E02C6D;
     color: white;
     padding: 10px 24px;
     border: none;
     font-weight: bold;
-    font-size: 16px; 
+    font-size: 16px;
     cursor: pointer;
 }
 
 /**----------------
 Footer Section
 ---------------*/
-footer{
+footer {
     background-color: #0A0826;
     text-align: center;
     margin-bottom: -15px;
     padding: 46px 0 60px 0;
 }
-footer h2{
+
+footer h2 {
     color: white;
     margin: 0;
     font-size: 25px;
     font-weight: normal;
 }
-footer p{
+
+footer p {
     color: #D9DBE1;
     font-size: 11px;
     margin-top: 0;
 }
-footer .fa-brands{
+
+footer .fa-brands {
     color: white;
     margin-right: 20px;
 }
+
 footer i {
     cursor: pointer;
 }
+
+/*---------------
+Media Query Divives
+------------------*/
+
+/*----------------
+ Mobile Device
+ ---------------- */
+@media only screen and (max-width: 688px) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    /* Dekstop Menu  */
+    .menu {
+        display: none;
+    }
+
+    /* Dexstop Menu End  */
+    /* Nav Menu */
+    .mobile-menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 18px;
+    }
+    .mobile-dropdown{
+        cursor: pointer;
+    }
+    .mobile-logo img {
+        width: 150px;
+    }
+
+    /* Mobile Menu end  */
+    /* Banner Section */
+    .banner {
+        text-align: center;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+    }
+
+    .prebook-thumbnail {
+        width: 100%;
+        margin: auto;
+    }
+
+    .banner .prebook-thumbnail img {
+        width: 420px;
+        margin-left: -10px;
+    }
+
+    .prebook {
+        width: 100%;
+        margin-top: -30px;
+    }
+
+    .prebook h1 {
+        font-size: 30px;
+    }
+
+    .bescription {
+        font-size: 13px;
+    }
+
+    /* Banner Section Done  */
+
+    /* Brands Section  */
+    .brands {
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+    }
+
+    .brands img {
+        margin: 12px;
+        align-items: center;
+        width: 100%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    /* Brands Section End  */
+
+    /* Collections Section */
+    .collections {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .see-more {
+        justify-content: center;
+    }
+
+    /* Collections Section End  */
+
+    /* featured-product */
+    .featured-product {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .featured-info {
+        width: 100%;
+        margin: auto;
+    }
+
+    .join {
+        margin-bottom: 50px;
+    }
+
+    /* Featured Produt Section End */
+}
+
+/* Tablet Devive   */
