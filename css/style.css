@@ -366,3 +366,119 @@ Media Query Divives
 }
 
 /* Tablet Devive   */
+@media only screen and (min-width: 689px) and (max-width: 992px){
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* Dekstop Menu  */
+    .menu {
+        display: none;
+    }
+
+    /* Dexstop Menu End  */
+    /* Nav Menu */
+    .mobile-menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 18px;
+    }
+    .mobile-dropdown{
+        cursor: pointer;
+    }
+    .mobile-logo img {
+        width: 150px;
+    }
+
+    /* Mobile Menu end  */
+
+    /* Banner Section */
+    .banner {
+        text-align: center;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+    }
+
+    .prebook-thumbnail {
+        width: 100%;
+        margin: auto;
+    }
+
+    .banner .prebook-thumbnail img {
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    .prebook {
+        width: 100%;
+        margin-top: -30px;
+    }
+
+    .prebook h1 {
+        font-size: 30px;
+    }
+
+    .bescription {
+        font-size: 13px;
+    }
+
+    /* Banner Section Done  */
+
+    /* Brands Section  */
+    .brands {
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+    }
+
+    .brands img {
+        margin: 12px;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* Brands Section End  */
+
+    /* Collections Section */
+    .collections {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: auto;
+    }
+    .collectoin{
+        margin: 10px;
+        justify-items: center;
+    }
+
+    .see-more {
+        justify-content: center;
+    }
+
+    /* Collections Section End  */
+
+    /* featured-product */
+    .featured-product {
+        flex-direction: row;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .featured-info {
+        width: 100%;
+        margin: auto;
+    }
+    .featured-thumbnail img{
+        width: 70%;
+    }
+
+    .join {
+        margin-bottom: 50px;
+    }
+    /* Featured Produt Section End */
+    footer{
+        width: 100%;
+        margin: auto;
+    }
+}
