@@ -221,3 +221,6 @@ footer .fa-brands{
     color: white;
     margin-right: 20px;
 }
+footer i {
+    cursor: pointer;
+}
